@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="8dp">
+
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:padding="10dp"
+      >
+        <ImageView
+            android:id="@+id/lf_image"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:src="@drawable/lahorefort"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/lf_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lahore Fort"
+            android:layout_toRightOf="@+id/lf_image"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:textSize="20dp"
+            android:lineHeight="20dp"
+           />
+
+        <RatingBar
+            android:id="@+id/lf_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_below="@+id/lf_title"
+            android:layout_toRightOf="@+id/lf_image"
+            android:layout_marginLeft="10dp"
+            android:rating="4"/>
+
+        <TextView
+            android:id="@+id/lf_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="!!The Lahore Fort is a citadel in the city of Lahore, Pakistan.The fortress is located at the northern end
+            of walled city Lahore"
+            android:layout_below="@+id/lf_rating"
+            android:layout_toRightOf="@id/lf_image"
+            android:padding="10dp"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

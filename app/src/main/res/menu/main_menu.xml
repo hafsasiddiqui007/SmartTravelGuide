@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/home"
+            android:icon="@drawable/dashboard_icon"/>
+
+        <item
+            android:id="@+id/nav_video"
+            android:title="@string/video_search"
+            android:icon="@drawable/video_icon"/>
+
+        <item
+            android:id="@+id/nav_categori"
+            android:title="@string/categor"
+            android:icon="@drawable/category_icon"/>
+
+        <item
+            android:id="@+id/nav_locate"
+            android:title="@string/location"
+            android:icon="@drawable/location_icon"/>
+
+        </group>
+
+    <item android:title="categories">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_resturant"
+                    android:title="@string/restaurants"
+                    android:icon="@drawable/restaurant_icon"/>
+
+                <item
+                    android:id="@+id/nav_hotel"
+                    android:title="@string/hotels"
+                    android:icon="@drawable/hotel_icon"/>
+
+                <item
+                    android:id="@+id/nav_shop"
+                    android:title="@string/shops"
+                    android:icon="@drawable/shops_icon"/>
+
+                <item
+                    android:id="@+id/nav_bank"
+                    android:title="@string/banks"
+                    android:icon="@drawable/bank_icon"/>
+
+            </group>
+
+        </menu>
+    </item>
+
+    <item android:title="Share">
+
+        <menu>
+            <group android:checkableBehavior="none">
+
+                <item
+                    android:id="@+id/nav_share"
+                    android:title="@string/share"
+                    android:icon="@drawable/share_icon"/>
+
+                <item
+                    android:id="@+id/nav_rate"
+                    android:title="@string/rate_us"
+                    android:icon="@drawable/rate_icon"/>
+
+            </group>
+
+        </menu>
+    </item>
+
+
+
+
+</menu>

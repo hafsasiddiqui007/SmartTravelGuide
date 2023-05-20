@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Smart Travel Guide</string>
+    <string name="Logo_name">Smart Travel_Guide</string>
+    <string name="Slogan_name">We Will Take U To Best Visiting Places</string>
+
+    <!-- Strings for On Boarding Screen -->
+    <!--Titles-->
+    <string name="first_slide_title">Lahore FORT</string>
+    <string name="second_slide_title">Bhurban Hill</string>
+    <string name="third_slide_title">Badshahi_Mosque</string>
+    <string name="fourth_slide_title">pakistan_monument</string>
+
+    <!--Descriptions-->
+    <string name="first_slide_desc">!!The Lahore Fort is a citadel in the city of Lahore, Pakistan.The fortress is located at the northern end of walled city Lahore,  </string>
+    <string name="second_slide_desc"> </string>
+    <string name="third_slide_desc"> </string>
+    <string name="fourth_slide_desc">  </string>
+
+    <!--Buttons-->
+    <string name="skip_btn">Skip</string>
+    <string name="next_btn">Next</string>
+    <string name="let_get_started">Lets Get Started</string>
+
+       <!--  STRINGS FOR DASHBOARD -->
+   <string name="home">Home</string>
+    <string name="video_search">Video_Search</string>
+    <string name="categor">Categories</string>
+    <string name="Weather">Weather Forecast</string>
+    <string name="location">Current Location</string>
+    <string name="share">Share</string>
+    <string name="rate_us">rateing_us</string>
+
+    <!-- CATEGORIES -->
+
+    <string name="hotels">Hotels</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="shops">Shops</string>
+    <string name="banks">Banks</string>
+
+    <!-- TITLES AND Descriptions  -->
+
+     <string name="Current_Locations">All Current_Locations </string>
+    <string name="Current_Locations_description">All the location that are featured and have the top demand in town! </string>
+    <!-- <string name="Locate_Map">Current_Locations_Map </string>-->
+    <string name="most_viewed_location">MOST VIEWED</string>
+    <string name="view_all">View All</string>
+    <string name="categories">Categories</string>
+  <string name="Video_Search">Video_Search</string>
+   <string name="Weather_forecast">Weather_forecast</string>
+  <string name="search_text">  Search......</string>
+  <!-- <string name="information_upon_tourist_spot">information_upon_tourist_spot</string>-->
+   <!--  <string name="calculationDistanceBetweenTwoCITIES">calculationDistanceBetweenTwoCITIES</string> -->
+
+
+
+
+</resources>

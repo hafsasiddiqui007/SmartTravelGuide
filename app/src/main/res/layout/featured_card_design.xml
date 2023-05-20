@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/kfc_image"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="8dp"
+    android:layout_margin="10dp">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:padding="10dp">
+
+
+        <ImageView
+            android:id="@+id/k.image"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/kfc"/>
+
+        <TextView
+            android:id="@+id/k.title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="KFC"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_toRightOf="@+id/k.image"
+            android:layout_marginLeft="10dp"
+            android:lineHeight="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/k.image"
+            />
+
+        <RatingBar
+            android:id="@+id/k_rating"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/k.title"
+            android:layout_toRightOf="@id/k.image"
+            android:layout_marginLeft="10dp"
+            android:rating="4" />
+
+        <TextView
+            android:id="@+id/k_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KFC Has A Great Taste"
+            android:layout_below="@+id/k_rating"
+            android:layout_toRightOf="@id/k.image"
+            android:padding="10dp"/>
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
